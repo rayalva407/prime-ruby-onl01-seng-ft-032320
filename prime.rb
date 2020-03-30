@@ -1,1 +1,3 @@
-# Add  code here!
+def prime?(int)
+  int.odd?
+end
