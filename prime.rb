@@ -1,3 +1,5 @@
 def prime?(int)
-  int.none? {|num| n % num == 0}
+  if int < 2
+    return false
+  end
 end
