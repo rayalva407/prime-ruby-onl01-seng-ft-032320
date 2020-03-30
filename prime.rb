@@ -1,3 +1,3 @@
 def prime?(int)
-  n.none?
+  n.none? {|num|
 end
