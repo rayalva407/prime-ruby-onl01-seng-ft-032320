@@ -7,3 +7,4 @@ def prime?(int)
     int % n == 0
   end
 end
+end
