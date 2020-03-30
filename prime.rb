@@ -3,7 +3,7 @@ def prime?(int)
     return false
   elsif int <= 3
     return true
-  else (2..int % 2).none do |n|
+  else (2..int % 2).none? do |n|
     int % n == 0
   end
 end
